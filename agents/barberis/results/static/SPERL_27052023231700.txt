@@ -1,0 +1,20 @@
+seed: 13
+p_win: 0.42
+alpha: 0.95
+delta: (0.5, 0.5)
+lmbd: 1.5
+B: 0
+critic_lr:0.04
+target_type:TD10(bwd)
+order:bwd
+support_size(K) :50
+lbub: 1
+p_filter: 0.85
+treshRatio: 0.5
+smoothen: 0.5
+ss_inverted: 1
+explore_type:eps-greedy
+eps:0.6
+n_batch:1
+train_num:15000
+n_eval:500
